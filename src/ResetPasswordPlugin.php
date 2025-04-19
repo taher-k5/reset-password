@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace SFS\ResetPassword;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class ResetPasswordPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'reset-password';
     }
 
     public function register(Panel $panel): void
