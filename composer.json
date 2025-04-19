@@ -39,8 +39,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SFS\\ResetPassword\\": "src/",
-            "SFS\\ResetPassword\\Database\\Factories\\": "database/factories/"
+            "SFS\\ResetPassword\\": "src/"
         }
     },
     "autoload-dev": {
