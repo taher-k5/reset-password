@@ -9,23 +9,23 @@ use Filament\Notifications\Notification as FilamentNotification;
 
 trait ResetPassword
 {
-    protected Closure|string|null $guard = null;
+    protected Closure | string | null $guard = null;
 
-    protected Closure|string|null $backTo = null;
+    protected Closure | string | null $backTo = null;
 
     public static function getDefaultName(): ?string
     {
         return 'impersonate';
     }
 
-    public function guard(Closure|string $guard): self
+    public function guard(Closure | string $guard): self
     {
         $this->guard = $guard;
 
         return $this;
     }
 
-    public function backTo(Closure|string $backTo): self
+    public function backTo(Closure | string $backTo): self
     {
         $this->backTo = $backTo;
 

@@ -10,11 +10,11 @@ use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
 use Illuminate\Filesystem\Filesystem;
 use Livewire\Features\SupportTesting\Testable;
+use SFS\ResetPassword\Commands\ResetPasswordCommand;
+use SFS\ResetPassword\Testing\TestsResetPassword;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use SFS\ResetPassword\Commands\ResetPasswordCommand;
-use SFS\ResetPassword\Testing\TestsResetPassword;
 
 class ResetPasswordServiceProvider extends PackageServiceProvider
 {
