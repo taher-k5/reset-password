@@ -15,8 +15,8 @@ class ResetPassword extends Action
 
         $this
             ->label('Reset Password')
-            ->iconButton()
-            ->icon('impersonate-icon')
+            // ->iconButton()
+            // ->icon('impersonate-icon')
             ->action(fn ($record) => $this->reset_password($record));
     }
 }
